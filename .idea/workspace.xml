@@ -1,31 +1,150 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8a01a22d-e706-4e93-b313-0c0dc7144667" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Decorate/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Decorate/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Decorate/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Decorate/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Decorate/Decorate.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Decorate/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Decorate/src/main/java/com/decorate/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Decorate/src/main/java/com/decorate/child/Jeans.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Decorate/src/main/java/com/decorate/child/Pants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Decorate/src/main/java/com/decorate/child/Shoes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Decorate/src/main/java/com/decorate/child/TShirt.java" afterDir="false" />
+    <list default="true" id="8a01a22d-e706-4e93-b313-0c0dc7144667" name="Default" comment="2020/10/23">
+      <change afterPath="$PROJECT_DIR$/ChainOfReponsibility/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChainOfReponsibility/src/main/java/com/reponsibility/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChainOfReponsibility/src/main/java/com/reponsibility/children/manager/CommonManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChainOfReponsibility/src/main/java/com/reponsibility/children/manager/GeneralManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChainOfReponsibility/src/main/java/com/reponsibility/children/manager/MajordomoManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChainOfReponsibility/src/main/java/com/reponsibility/entity/Request.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChainOfReponsibility/target/classes/com/reponsibility/Manager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChainOfReponsibility/target/classes/com/reponsibility/children/manager/CommonManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChainOfReponsibility/target/classes/com/reponsibility/children/manager/GeneralManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChainOfReponsibility/target/classes/com/reponsibility/children/manager/MajordomoManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChainOfReponsibility/target/classes/com/reponsibility/entity/Request.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Component/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Component/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Component/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Component/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Component/Component.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Component/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Component/src/main/java/com/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Component/src/main/java/com/component/Company.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Component/src/main/java/com/component/Component.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Component/src/main/java/com/component/composite/Composite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Component/src/main/java/com/component/composite/ConcreteCompany.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Component/src/main/java/com/component/leaf/FinanceDepartment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Component/src/main/java/com/component/leaf/HRDepartment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Component/src/main/java/com/component/leaf/Leaf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Component/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Component/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Component/target/classes/com/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Component/target/classes/com/component/Company.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Component/target/classes/com/component/Component.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Component/target/classes/com/component/composite/Composite.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Component/target/classes/com/component/composite/ConcreteCompany.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Component/target/classes/com/component/leaf/FinanceDepartment.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Component/target/classes/com/component/leaf/HRDepartment.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Component/target/classes/com/component/leaf/Leaf.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Decorate/src/main/java/com/decorate/Decorate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Decorate/target/Decorate.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Decorate/target/Decorate/WEB-INF/classes/com/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Decorate/target/Decorate/WEB-INF/classes/com/facetory/create/CreateUFunc.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Decorate/target/Decorate/WEB-INF/classes/com/facetory/ufunc/AddUFunc.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Decorate/target/Decorate/WEB-INF/classes/com/facetory/ufunc/DivideUFunc.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Decorate/target/Decorate/WEB-INF/classes/com/facetory/ufunc/MultiplyUFunc.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Decorate/target/Decorate/WEB-INF/classes/com/facetory/ufunc/SubtractUFunc.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Decorate/target/Decorate/WEB-INF/classes/com/facetory/ufunc/UFunc.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Decorate/target/Decorate/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Decorate/target/Decorate/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Decorate/target/classes/com/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Decorate/target/classes/com/decorate/Decorate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Decorate/target/classes/com/decorate/Person.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Decorate/target/classes/com/decorate/child/Jeans.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Decorate/target/classes/com/decorate/child/Pants.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Decorate/target/classes/com/decorate/child/Shoes.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Decorate/target/classes/com/decorate/child/TShirt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Decorate/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Decorate/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Decorate/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Facade/src/main/java/com/facade/StockOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Facade/src/main/java/com/facade/pack/Fund.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Facade/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Facade/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Facade/target/classes/com/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Facade/target/classes/com/facade/StockOne.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Facade/target/classes/com/facade/StockThree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Facade/target/classes/com/facade/StockTwo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Facade/target/classes/com/facade/pack/Fund.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Facetory/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/DesignPatterns.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DesignPatterns.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Facetory/target/classes/com/facetory/LeiFengTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Facetory/target/classes/com/facetory/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Facetory/target/classes/com/facetory/leifen/IFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Facetory/target/classes/com/facetory/leifen/LeiFeng.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Facetory/target/classes/com/facetory/leifen/chilren/Undergraduate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Facetory/target/classes/com/facetory/leifen/chilren/UndergraduateFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Facetory/target/classes/com/facetory/leifen/chilren/Volunteer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Facetory/target/classes/com/facetory/leifen/chilren/VolunteerFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Iterator/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Iterator/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Iterator/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Iterator/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Iterator/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Iterator/Iterator.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Iterator/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Iterator/src/main/java/com/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Iterator/src/main/java/com/iterator/Aggregate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Iterator/src/main/java/com/iterator/Iterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Iterator/src/main/java/com/iterator/concrete/ConcreteAggregate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Iterator/src/main/java/com/iterator/concrete/ConcreteIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Iterator/src/main/java/com/iterator/concrete/ConcreteIteratorDesc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Iterator/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Iterator/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Iterator/target/classes/com/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Iterator/target/classes/com/iterator/Aggregate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Iterator/target/classes/com/iterator/Iterator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Iterator/target/classes/com/iterator/concrete/ConcreteAggregate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Iterator/target/classes/com/iterator/concrete/ConcreteIterator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Iterator/target/classes/com/iterator/concrete/ConcreteIteratorDesc.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Prototype/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Prototype/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Prototype/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Prototype/Prototype.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Prototype/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Prototype/src/main/java/com/prototype/entity/Prototype.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Prototype/src/main/java/com/prototype/entity/Resumes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Prototype/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Prototype/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Prototype/target/classes/com/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Prototype/target/classes/com/prototype/IPrototype.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Prototype/target/classes/com/prototype/entity/Prototype.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Prototype/target/classes/com/prototype/entity/Resumes.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Singleton/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Singleton/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Singleton/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Singleton/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Singleton/Singleton.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Singleton/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Singleton/src/main/java/com/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Singleton/src/main/java/com/singleton/LockSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Singleton/src/main/java/com/singleton/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Singleton/src/main/java/com/singleton/StaticSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Singleton/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Singleton/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Singleton/target/classes/com/Test$MyThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Singleton/target/classes/com/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Singleton/target/classes/com/singleton/LockSingleton.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Singleton/target/classes/com/singleton/Singleton.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TemplateTwo/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TemplateTwo/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TemplateTwo/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TemplateTwo/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TemplateTwo/TemplateTwo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TemplateTwo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TemplateTwo/src/main/java/com/template/TestPaper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TemplateTwo/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TemplateTwo/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TemplateTwo/target/classes/com/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TemplateTwo/target/classes/com/template/TestPaper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TemplateTwo/target/classes/com/template/children/TestPaperA.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TemplateTwo/target/classes/com/template/children/TestPaperB.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChainOfReponsibility/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ChainOfReponsibility/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChainOfReponsibility/src/main/java/com/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChainOfReponsibility/src/main/java/com/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChainOfReponsibility/target/classes/com/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/ChainOfReponsibility/target/classes/com/Test.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Facetory/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Facetory/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facetory/src/main/java/com/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/Decorate/src/main/java/com/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facetory/src/main/java/com/facetory/create/CreateUFunc.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facetory/src/main/java/com/facetory/ufunc/AddUFunc.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facetory/src/main/java/com/facetory/ufunc/DivideUFunc.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facetory/src/main/java/com/facetory/ufunc/MultiplyUFunc.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facetory/src/main/java/com/facetory/ufunc/SubtractUFunc.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facetory/src/main/java/com/facetory/ufunc/UFunc.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facetory/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Decorate/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facetory/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/Decorate/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Proxy/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -47,6 +166,14 @@
     </option>
     <expand />
     <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>template</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -72,7 +199,7 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
+    <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -81,9 +208,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -91,18 +217,31 @@
               <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
               <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
+            <path>
+              <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Extensions" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Memento" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
@@ -184,7 +323,18 @@
       <workItem from="1602223608132" duration="2000" />
       <workItem from="1602228441700" duration="480000" />
       <workItem from="1602229058059" duration="636000" />
-      <workItem from="1602292000785" duration="714000" />
+      <workItem from="1602292000785" duration="961000" />
+      <workItem from="1602311125798" duration="318000" />
+      <workItem from="1602318978873" duration="3281000" />
+      <workItem from="1602471262611" duration="2000" />
+      <workItem from="1602481789786" duration="425000" />
+      <workItem from="1602582228122" duration="2276000" />
+      <workItem from="1602647786753" duration="177000" />
+      <workItem from="1602659005324" duration="1946000" />
+      <workItem from="1602669540775" duration="139000" />
+      <workItem from="1602721822831" duration="800000" />
+      <workItem from="1603360730467" duration="778000" />
+      <workItem from="1603446661391" duration="527000" />
     </task>
     <task id="LOCAL-00001" summary="2020/09/27 设计模式-简单工厂模式">
       <created>1601206515444</created>
@@ -193,11 +343,130 @@
       <option name="project" value="LOCAL" />
       <updated>1601206515444</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="2020/10/10 装饰模式">
+      <created>1602294255974</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1602294255974</updated>
+    </task>
+    <task id="LOCAL-00003" summary="2020/10/10 代理模式">
+      <created>1602294377850</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1602294377850</updated>
+    </task>
+    <task id="LOCAL-00004" summary="2020/10/10 工厂方法模式">
+      <created>1602311194277</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1602311194277</updated>
+    </task>
+    <task id="LOCAL-00005" summary="2020/10/10 模板方法模式">
+      <created>1602322468531</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1602322468531</updated>
+    </task>
+    <task id="LOCAL-00006" summary="2020/10/13 外观模式">
+      <created>1602582576455</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1602582576455</updated>
+    </task>
+    <task id="LOCAL-00007" summary="2020/10/13 原型模式">
+      <created>1602582666611</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1602582666611</updated>
+    </task>
+    <task id="LOCAL-00008" summary="2020/10/13 抽象工厂模式">
+      <created>1602582767942</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1602582767942</updated>
+    </task>
+    <task id="LOCAL-00009" summary="2020/10/13 建造者模式">
+      <created>1602582886971</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1602582886971</updated>
+    </task>
+    <task id="LOCAL-00010" summary="2020/10/13 观察者模式">
+      <created>1602582912179</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1602582912179</updated>
+    </task>
+    <task id="LOCAL-00011" summary="2020/10/14 状态模式">
+      <created>1602647902997</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1602647902997</updated>
+    </task>
+    <task id="LOCAL-00012" summary="2020/10/14 适配器模式">
+      <created>1602659039272</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1602659039272</updated>
+    </task>
+    <task id="LOCAL-00013" summary="2020/10/14 备忘录模式">
+      <created>1602669602936</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1602669602936</updated>
+    </task>
+    <task id="LOCAL-00014" summary="2020/10/22 桥接模式">
+      <created>1603360799777</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1603360799777</updated>
+    </task>
+    <task id="LOCAL-00015" summary="2020/10/22 职责链模式">
+      <created>1603360824737</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1603360824737</updated>
+    </task>
+    <task id="LOCAL-00016" summary="2020/10/22 命令模式">
+      <created>1603360845238</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1603360845238</updated>
+    </task>
+    <task id="LOCAL-00017" summary="2020/10/23 中介者模式">
+      <created>1603446760545</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1603446760545</updated>
+    </task>
+    <task id="LOCAL-00018" summary="2020/10/23 享元模式">
+      <created>1603446793932</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1603446793932</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3505000" />
+    <option name="totallyTimeSpent" value="14421000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -219,14 +488,15 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="8" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32936078" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32936078" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26332623" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.33152762" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29317698" />
       <window_info id="Web" order="3" side_tool="true" />
       <window_info anchor="right" id="BPMNPalette" order="3" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="8" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -238,22 +508,204 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2020/09/27 设计模式-简单工厂模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="2020/09/27 设计模式-简单工厂模式" />
+    <MESSAGE value="2020/10/10 装饰模式" />
+    <MESSAGE value="2020/10/10 代理模式" />
+    <MESSAGE value="2020/10/10 工厂方法模式" />
+    <MESSAGE value="2020/10/10 模板方法模式" />
+    <MESSAGE value="2020/10/13 外观模式" />
+    <MESSAGE value="2020/10/13 原型模式" />
+    <MESSAGE value="2020/10/13 抽象工厂模式" />
+    <MESSAGE value="2020/10/13 建造者模式" />
+    <MESSAGE value="2020/10/13 观察者模式" />
+    <MESSAGE value="2020/10/14 状态模式" />
+    <MESSAGE value="2020/10/14 适配器模式" />
+    <MESSAGE value="2020/10/14 备忘录模式" />
+    <MESSAGE value="2020/10/22 桥接模式" />
+    <MESSAGE value="2020/10/22 职责链模式" />
+    <MESSAGE value="2020/10/22 命令模式" />
+    <MESSAGE value="2020/10/23 中介者模式" />
+    <MESSAGE value="2020/10/23 享元模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020/10/23 享元模式" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.idea/DesignPatterns.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1000">
+          <caret line="50" column="9" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1180">
+          <caret line="59" column="16" selection-start-line="59" selection-start-column="16" selection-end-line="59" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/DesignPatterns.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1000">
+          <caret line="50" column="9" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1040">
+          <caret line="52" column="16" lean-forward="true" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/DesignPatterns.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1000">
+          <caret line="50" column="9" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1040">
+          <caret line="52" column="60" lean-forward="true" selection-start-line="52" selection-start-column="60" selection-end-line="52" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Decorate/src/main/java/com/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-222" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Observer/src/main/java/com/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-180" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="75" column="16" lean-forward="true" selection-start-line="75" selection-start-column="16" selection-end-line="75" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/DesignPatterns.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="50" column="9" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+  </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>DesignPatterns</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>

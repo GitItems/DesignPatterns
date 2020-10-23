@@ -1,0 +1,7 @@
+com\facetory\ufunc\MultiplyUFunc.class
+com\facetory\ufunc\DivideUFunc.class
+com\facetory\ufunc\SubtractUFunc.class
+com\Test.class
+com\facetory\create\CreateUFunc.class
+com\facetory\ufunc\AddUFunc.class
+com\facetory\ufunc\UFunc.class

@@ -1,0 +1,40 @@
+package com.component.leaf;
+
+import com.component.Company;
+
+/**
+ * @ProjectName: Component
+ * @Package: com.component.leaf
+ * @ClassName: FinanceDepartment
+ * @Author: MrChen
+ * @Date: 2020/10/15 14:02
+ */
+public class FinanceDepartment extends Company {
+
+    public FinanceDepartment(String name) {
+        super(name);
+    }
+
+    @Override
+    public void add(Company c) {
+
+    }
+
+    @Override
+    public void remove(Company c) {
+
+    }
+
+    @Override
+    public void display(int depth) {
+        for (int i = 0; i < depth; i++) {
+            System.out.print("-");
+        }
+        System.out.println(name);
+    }
+
+    @Override
+    public void lineOfDuty() {
+        System.out.println(name + "员工招聘培训管理");
+    }
+}
